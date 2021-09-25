@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+header {
+    width: 100%;
+    height: 15vh;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+header p {
+    font-size: 2.5rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 0.2rem;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.noivos {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgNoivos {
+    width: 33%;
+    height: 100%;
+    border: solid 1px black;
+}
+
+.nomeNoivos {
+    font-size: 10rem;
+    position: absolute;
+}
