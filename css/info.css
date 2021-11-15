@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Praise&display=swap');
+
+
+.info {
+    height:80vh;
+    width:100vw;
+    border: solid 1px red;
+    display:flex;
+
+    }
+
+.imgInfo {
+    height: 100%;
+    width: 60%;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes{
+    height: 100%;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2 rem;
+
+}
+
+.cermonia {
+    margin: 5rem 0 4rem 0;
+}
+
+.local{
+    margin: 0 0 5rem 0;
+}
+
+.cermonia p, .local p{
+    margin-bottom: .5rem;
+
+}
+
+.cermonia p:first-child,.local p:first-child{
+    margin-bottom: 1.1rem;
+}
