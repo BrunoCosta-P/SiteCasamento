@@ -45,6 +45,18 @@ iframe {
 
 }
 
+.cermonia p:first-child, .local p:first-child{
+    font-size: 1.5rem ;
+    font-weight: bold
+}
+
 .cermonia p:first-child,.local p:first-child{
     margin-bottom: 1.1rem;
+}
+
+
+.mapa {
+    height:70vh;
+    width:90vw;
+    margin: 0 5%;
 }
