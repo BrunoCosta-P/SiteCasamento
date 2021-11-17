@@ -4,7 +4,7 @@
 
 .info {
     height:80vh;
-    width:100vw;
+    width:auto;
     border: solid 1px red;
     display:flex;
 

@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row-reverse;
     font-size: 1.2rem;
+    padding: 0 5%;
+    margin-bottom: 3rem;
 }
 
 .imgDresscode {
@@ -21,8 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px black;
-    padding: 1rem;
+    padding:1rem 0;
 }
 
 .infoDresscode p {
@@ -39,6 +40,6 @@
 
 .infoDresscode p:first-child {
     font-size: 1.5rem;
-    margin-bottom: 2.5rem
-     ;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
 }

@@ -1,0 +1,54 @@
+.rsvp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    
+}
+
+.formRsvp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+input {
+    margin: 0 0 2rem 0;
+    text-align: center;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#nome, #tel, #email {
+    width: 33vw;
+
+}
+
+#date {
+    width:15vw;
+}
+
+.btn {
+    width:10vw;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    transition: .4s;
+}
+
+.btn:active {
+    transform: scale(.9, .9);
+    transition: .1s;
+    opacity: .9;
+}
