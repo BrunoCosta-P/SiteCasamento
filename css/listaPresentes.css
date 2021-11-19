@@ -1,0 +1,70 @@
+.listaPresente {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5% 0 5%;
+}
+
+.presente {
+    width: 25vw;
+    height: 60vh;
+    margin: 2rem 2rem 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.imgPresente:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.imgPresente {
+    height:70%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+.img1 {
+    background-image: url(../img/Jogo-de-Panelas-Antiaderentes-5-Pecas-Santorini-Ana-Maria-Braga-preçolandia-603260-0c.jpg);
+}
+
+.img2 {
+    background-image: url(../img/Frigideira-Wok-Santorini-com-Tampa-28cm-Preta-Meridional-preçolandia-582727-0c.jpg);
+}
+.img3{
+    background-image: url(../img/Maquina-de-Macarrao-Ana-Maria-Braga-para-3-Massas-preçolandia-939323-0c.jpg);
+}
+.img4{
+    background-image: url(../img/Fouet-de-Inox-Hercules-preçolandia-563447-0c.jpg);
+}
+.img5{
+    background-image: url(../img/Liquidificador-Mondial-L-1200-Bi-com-12-Velocidades-Preto-preçolandia-964026-0c.jpg);
+}
+.img6{
+    background-image: url(../img/Batedeira-Planetaria-Php500-Turbo-Vermelha-com-11-Velocidades-Philco-preçolandia-946320-0c.jpg);
+}
+.img7{
+    background-image: url(../img/Mixer-Bmx201-Preto-127v-preçolandia-536970-0c.jpg);
+}
+.img8{
+    background-image: url(../img/Grill-Cadence-Club-Sandwich-preçolandia-454117-0c.jpg);
+}
+.img9{
+    background-image: url(../img/Faqueiro-Tramontina-36-Pecas-Amazonas-preçolandia-507385-0c.jpg);
+}
+
+.presente p{
+    padding: .5rem;
+}
+
+.btnPresente {
+    margin: 2rem;
+    border: 1px solid black;
+    width:15vw;
+    height:5vh;
+    text-align: center;
+}
