@@ -11,9 +11,26 @@
 .imgDresscode {
     width: 60%;
     height:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dressCode {
+    height: 100%;
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
+.dressM {
+    background-image: url(../img/dressCodeM.jpg);
+}
+
+.dressF {
+    background-image: url(../img/dressCodeF.jpg);
+}
 
 .infoDresscode {
     width: 40%;

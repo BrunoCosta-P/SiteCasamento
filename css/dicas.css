@@ -1,0 +1,85 @@
+.dicas {
+    height:auto;
+    width:100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 5%;
+}
+
+.dicasInfo {
+    width:40%;
+    height: 100%;
+    text-align: center;
+}
+
+.dicasInfo p {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    margin-bottom:1rem;
+}
+
+.dicasLink {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+
+}
+
+.indicacao {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.indicacao a {
+    height: 100%;
+    width: 100%;
+}
+
+.indicacao img {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indi1 {
+    background-image: url(../img/hotelAbrico.jpg);
+}
+
+.indi2 {
+    background-image: url(../img/hotelArrastao.jpg);
+}
+
+.indi3 {
+    background-image: url();
+}
+
+.indi4 {
+    background-image: url();
+}
+
+.indi5 {
+    background-image: url();
+}
+
+.indi6 {
+    background-image: url();
+}
+
+.indicacao p {
+    height: 10vh;
+}
