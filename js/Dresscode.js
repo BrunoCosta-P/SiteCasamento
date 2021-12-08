@@ -15,7 +15,7 @@ class Dresscode {
     calculoScrollDresscode(){
 
         const posicaoDresscode = this.sectionDresscode.getBoundingClientRect()['y'];
-       console.log(posicaoDresscode) //250
+        //console.log(posicaoDresscode) //250
 
        if (posicaoDresscode <= 250 ) {
            this.pFemenino.style.transform = 'translateX(0)';

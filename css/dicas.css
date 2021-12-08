@@ -17,7 +17,12 @@
     align-items: center;
     height: 60vh;
     margin-bottom:1rem;
+    transform: translateX(-150%)
+
 }
+
+
+
 
 .dicasLink {
     width: 60%;
@@ -44,6 +49,7 @@
     flex-direction: column;
     text-align: center;
     margin-right: .5rem;
+    transform:scale(.01);
     
 }
 
@@ -59,8 +65,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
-    
 }
+
+
 
 .indi1 {
     background-image: url(../img/hotelAbrico.jpg);

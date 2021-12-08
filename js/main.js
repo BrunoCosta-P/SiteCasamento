@@ -27,8 +27,8 @@ window.onload = () => {
 
     //_____________________________________________________________________
 
-    //const animaDicas = new Dicas();
-    //document.addEventListener('scroll', animaDicas.scrollDicas.bind(animaDicas))
+    const animaDicas = new Dicas();
+    document.addEventListener('scroll', animaDicas.scrollDicas.bind(animaDicas))
 
     //_____________________________________________________________________
 
