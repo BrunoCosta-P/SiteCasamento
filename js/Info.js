@@ -13,7 +13,7 @@ class Info {
 
     calculoScrollInfo() {
         const posicaoInfo = this.sectionInfo.getBoundingClientRect()['y']
-        console.log(posicaoInfo) //250
+       // console.log(posicaoInfo) //250
 
         if (posicaoInfo <= 200) {
             this.carrosel.style.transform = 'translateX(0)';

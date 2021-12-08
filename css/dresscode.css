@@ -25,10 +25,12 @@
 
 .dressM {
     background-image: url(../img/dressCodeM.jpg);
+    transform: translateX(-150%);
 }
 
 .dressF {
     background-image: url(../img/dressCodeF.jpg);
+    transform: translateX(150%);
 }
 
 .infoDresscode {
@@ -54,6 +56,14 @@
 
 .femenino p, .masculino p {
     width:50%;
+}
+
+.femenino p {
+    transform: translateX(-150%)
+}
+
+.masculino p {
+    transform: translateX(150%)
 }
 
 

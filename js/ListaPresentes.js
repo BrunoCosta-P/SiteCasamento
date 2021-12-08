@@ -1,8 +1,8 @@
-class ListaPresente{
+class ListaPresentes{
     constructor(){
-        this.sectionListaPresente = document.getElementById('#sectionListaPresente')
+        this.sectionListaPresente = document.getElementById('sectionListaPresente')
     }
 
     
 }
-export {ListaPresente}
+export {ListaPresentes}
