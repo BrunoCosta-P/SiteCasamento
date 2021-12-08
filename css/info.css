@@ -9,12 +9,7 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-}
 
-.carroselInfo {
-    background-image: url(../img/abricoPraia.jpg);
-    background-repeat:no-repeat;
-    background-size: 100%;
 }
 
 .mapa {
@@ -27,11 +22,16 @@
     height:65%;
     width:100%;
     margin: 0 5%;
+    transform: translateX(-150%);
+    background-image: url(../img/abricoPraia.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
 }
 
 iframe {
     width: 100%;
     height: 100%;
+    transform: translateX(-170%);
 }
 
 .informacoes{
@@ -43,15 +43,17 @@ iframe {
     align-items: center;
     text-align: center;
     font-size: 1.2 rem;
-
+    position: relative;
 }
 
 .cermonia {
     margin: 5rem 0 4rem 0;
+    transform: translateX(220%);
 }
 
 .local{
     margin: 0 0 5rem 0;
+    transform: translateX(150%);
 }
 
 .cermonia p, .local p{

@@ -2,7 +2,7 @@
     height:auto;
     width:100vw;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 0 5%;
 }
 
