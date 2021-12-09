@@ -5,6 +5,7 @@ import { Dresscode } from "./Dresscode.js";
 import {Dicas} from "./Dicas.js";
 import {Rsvp} from "./Rsvp.js";
 import {ListaPresentes} from "./ListaPresentes.js"
+import { Header } from "./Header.js";
 
 
 const relogio = new ContadorRegressivo();

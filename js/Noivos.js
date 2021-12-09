@@ -1,6 +1,7 @@
 class  Noivos { 
     constructor(){
         this.sectionNoivos = document.getElementById('sectionNoivos')
+        this.nomeNoivos = document.getElementById('nomeNoivos')
     }
 
 
@@ -10,7 +11,14 @@ class  Noivos {
 
     calculoScrollNoivos() {
         const posicaoNoivos = this.sectionNoivos.getBoundingClientRect()['y'];
-        //console.log(posicaoNoivos);
+        console.log(posicaoNoivos);
+
+
+        if (posicaoNoivos >= -299){
+
+            this.nomeNoivos.style.transform = `translateY(${(-posicaoNoivos - 109)}%)`;
+
+        }
     }
 
 
