@@ -16,19 +16,19 @@
 </head>
 <body>
     <header>
-        <ul>
+        <ul id="regressivo">
             <li><span id="days"></span>D</li>
             <li><span id="hours"></span>Hs</li>
             <li><span id="minutes"></span>Min</li>
             <li><span id="seconds"></span>Sec</li>
         </ul>
-        <p>Giuliana & Bruno</p>
+        <p id="tituloHeader">Giuliana & Bruno</p>
         <!-- colocar a data como background-->
     </header>
     <main>
         <section class="noivos" id="sectionNoivos">
             <div class="imgNoivos"></div>
-            <div class="nomeNoivos"><p>Giuliana & Bruno</p></div>
+            <div class="nomeNoivos" id="nomeNoivos"><p>Giuliana & Bruno</p></div>
         </section>
         <section class="info" id="sectionInfo">
             <div class="imgInfo">
@@ -128,17 +128,17 @@
         <h1 class="titleRsvp">Confirme sua presença</h1>
         <section class="rsvp" id="sectionRsvp">
 
-            <form  class="formRsvp" action="">
+            <form  class="formRsvp" id="formRsvp" action="">
                 
-                <label for="nome">Quem é você?</label>
+                <label for="nome" id="nomeForm">Quem é você?</label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                <label for="tel">Me fala seu WhatsApp</label>
+                <label for="tel" id="telForm">Me fala seu WhatsApp</label>
                 <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000">
-                <label for="email">E qual seria seu e-mail?</label>
+                <label for="email" id="emailForm">E qual seria seu e-mail?</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-                <label for="date">Vai chegar quando na praia?</label>
+                <label for="date" id="dateForm">Vai chegar quando na praia?</label>
                 <input type="date" name="date" id="date">
-                <input type="submit" value="Enviar" class="btn">
+                <input type="submit" value="Enviar" class="btn" id="btnForm">
                 
             </form>
         </section>

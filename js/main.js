@@ -32,8 +32,8 @@ window.onload = () => {
 
     //_____________________________________________________________________
 
-    //const animaRsvp = new Rsvp();
-    //document.addEventListener('scroll', animaRsvp.scrollRsvp.bind(animaRsvp))
+    const animaRsvp = new Rsvp();
+    document.addEventListener('scroll', animaRsvp.scrollRsvp.bind(animaRsvp))
 
     //_____________________________________________________________________
 

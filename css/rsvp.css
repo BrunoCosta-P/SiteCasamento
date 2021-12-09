@@ -18,12 +18,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 label {
     margin: 0 0 1rem 0;
     font-size: 1.2rem;
+    opacity: 0;
 }
 
 input {
@@ -31,6 +32,7 @@ input {
     text-align: center;
     height: 2rem;
     border-radius: 5px;
+    opacity: 0;
 }
 
 #nome, #tel, #email {
@@ -58,3 +60,7 @@ input {
     transition: .1s;
     opacity: .9;
 }
+
+
+
+
