@@ -17,10 +17,6 @@ class Rsvp {
         window.requestAnimationFrame(this.calculoScrollRsvp.bind(this));
     }
 
-    opacaty(elemento){
-       
-    } 
-
 
     calculoScrollRsvp(){
         const posicaoRsvp = this.sectionRsvp.getBoundingClientRect()['y']
