@@ -13,9 +13,9 @@ class Info {
 
     calculoScrollInfo() {
         const posicaoInfo = this.sectionInfo.getBoundingClientRect()['y']
-       // console.log(posicaoInfo) //250
+        //console.log(posicaoInfo) //250
 
-        if (posicaoInfo <= 200) {
+        if (posicaoInfo <= 392) {
             this.carrosel.style.transform = 'translateX(0)';
             this.carrosel.style.transition = 'transform 1.5s ease-in-out';
             this.cerimonia.style.transform= 'translateX(0)';
@@ -28,6 +28,9 @@ class Info {
             this.local.style.transform= 'translateX(0)';
             this.local.style.transition = 'transform 1.6s ease-in-out';
         }
+
+
+
     }
 
 }

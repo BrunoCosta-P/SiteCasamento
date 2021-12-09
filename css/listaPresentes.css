@@ -32,7 +32,7 @@
 
 .imgPresente:hover, .btnPresente:hover{
     transform: scale(1.05);
-    transition: .5s;
+    transition: .5s ease-in-out;
 }
 
 .imgPresente {
@@ -85,3 +85,4 @@
     color: black;
     opacity: 0;
 }
+

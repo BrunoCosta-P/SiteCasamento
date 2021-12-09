@@ -16,3 +16,20 @@
     font-size: 5.5rem;
     transform: translateY(-200%);
 }
+
+.btnsubir {
+    border: 1px solid black;
+    width: 3rem;
+    height: auto;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0;
+    
+}
+
+.btnsubir a {
+    color: black;
+}
