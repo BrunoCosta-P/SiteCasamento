@@ -12,7 +12,7 @@ class  Noivos {
 
     calculoScrollNoivos() {
         const posicaoNoivos = this.sectionNoivos.getBoundingClientRect()['y'];
-        console.log(posicaoNoivos);
+        
 
 
         if (posicaoNoivos >= -299){

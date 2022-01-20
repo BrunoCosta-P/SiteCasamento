@@ -20,7 +20,7 @@ class Rsvp {
 
     calculoScrollRsvp(){
         const posicaoRsvp = this.sectionRsvp.getBoundingClientRect()['y']
-        //console.log(posicaoRsvp) //357
+        
 
         if (posicaoRsvp <= 357){
             this.nomeForm.style.opacity='1';

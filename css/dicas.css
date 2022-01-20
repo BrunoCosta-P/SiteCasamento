@@ -3,7 +3,7 @@
     width:100vw;
     display: flex;
     flex-direction: row;
-    padding: 0 5%;
+    padding: 2rem 5%;
 }
 
 .dicasInfo {
@@ -103,6 +103,7 @@
     background-position-x: center;
     background-size: contain;
     background-position: center;
+    background-color: white;
 }
 
 .indicacao p {

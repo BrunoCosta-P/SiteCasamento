@@ -19,7 +19,7 @@ class ListaPresentes{
 
     calculoScrollLista(){
         const posicaoLista = this.sectionListaPresente.getBoundingClientRect()['y'];
-        //console.log(posicaoLista); //235
+       
 
         if (posicaoLista <= 235){
             this.presente1.style.transform = 'scale(1)';

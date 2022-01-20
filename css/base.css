@@ -29,8 +29,12 @@ header ul li {
     font-size: 1.8rem;
 }
 
-section {
-    margin-bottom: 2rem;
+
+
+.info, .dicas, .listaPresente{
+    background-image: linear-gradient(white 5%, #f1d7d6 )
 }
 
-
+.dresscode, .rsvp {
+    background-image: linear-gradient(#f1d7d6 5%, white )
+}

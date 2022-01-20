@@ -1,8 +1,10 @@
 .info {
-    height:90vh;
+    height:95vh;
     width:auto;
     display:flex;
-    }
+    padding:2rem 0 ;
+    ;
+}
 
 .imgInfo {
     height: 100%;
@@ -49,11 +51,13 @@ iframe {
 .cermonia {
     margin: 5rem 0 4rem 0;
     transform: translateX(220%);
+    overflow: hidden;
 }
 
 .local{
     margin: 0 0 5rem 0;
     transform: translateX(150%);
+    overflow: hidden;
 }
 
 .cermonia p, .local p{

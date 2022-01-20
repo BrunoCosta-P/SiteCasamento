@@ -20,7 +20,7 @@ class Dicas {
     calculoScrollDicas(){
 
         const posicaoDicas = this.sectionDicas.getBoundingClientRect()['y'];
-        //console.log (posicaoDicas); //265
+       
 
         if (posicaoDicas <= 405){
             this.dicasP1.style.transform = 'translateX(0)';
