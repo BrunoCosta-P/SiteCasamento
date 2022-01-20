@@ -63,7 +63,7 @@
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    
     border-radius: 4px;
 }
 
@@ -71,27 +71,38 @@
 
 .indi1 {
     background-image: url(../img/hotelAbrico.jpg);
+    background-size: cover;
     
 }
 
 .indi2 {
     background-image: url(../img/hotelArrastao.jpg);
+    background-size: cover;
 }
 
 .indi3 {
-    background-image: url();
+    background-image: url(../img/hotelVeleiro.jpg);
+    background-size: cover;
+    background-position-x: center;
 }
 
 .indi4 {
-    background-image: url();
+    background-image: url(../img/Guida\'sCabeleireiros.jpg);
+    background-position-x: center;
+    background-size: cover;
 }
 
 .indi5 {
-    background-image: url();
+    background-image: url(../img/weCut.png);
+    background-position-x: center;
+    background-size: cover;
 }
 
 .indi6 {
-    background-image: url();
+    background-image: url(../img/Francisco\ &\ Deborah\ Cabeleireiros.jpg);
+    background-position-x: center;
+    background-size: contain;
+    background-position: center;
 }
 
 .indicacao p {
