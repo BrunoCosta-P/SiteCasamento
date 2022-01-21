@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/rsvp.css">
     <link rel="stylesheet" href="css/dicas.css">
     <link rel="stylesheet" href="css/listaPresentes.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
     <title>Giuliana & Bruno</title>
 </head>
 <body>
@@ -65,14 +67,41 @@
                 
                     <p id="pFemenino" class="">Deixe o salto no armario, seu vestido de gala ficara para as bodas, use um vestido leve de cores claras e estampas florais (não esqueça, o branco é da noiva) um calçado confortavel (chinelos estão liberados) e não esqueça seus cuidados com o sol.  </p>
                     <div id="dressF" class="dressCode dressF">
-
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="img/dressCodeF.jpg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="img/referenciaF1.jpeg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="img/referenciaF2.jpeg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="" alt="" class="exemploDresCode">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="masculino" class="masculino">
                     
                     <p id="pMasculino">Jogue sua gravata pro alto, esqueça seu sapato apertado, tecidos leves são bem vindos, aquela sua camisa de linho é perfeita para a praia, calça pescador ou com tecidos leves e até aquela sua bermuda de sarja ta liberada.  </p>
                     <div id="dressM" class="dressCode dressM">
+                        <div class="owl-carousel owl-theme">
 
+                            <div class="item">
+                                <img src="img/referenciaM1.jpeg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="img/referenciaM2.jpeg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="img/referenciaM3.jpeg" alt="" class="exemploDresCode">
+                            </div>
+                            <div class="item">
+                                <img src="img/referenciaM4.jpeg" alt="" class="exemploDresCode">
+                            </div> 
+                        </div>
                     </div>
                 </div>
            
@@ -131,7 +160,7 @@
         <section class="rsvp" id="sectionRsvp">
             <h1 class="titleRsvp">Confirme sua presença</h1>
 
-            <form  class="formRsvp" id="formRsvp" action="">
+            <form  class="formRsvp" id="formRsvp" action="" method="post">
                 
                 <label for="nome" id="nomeForm">Quem é você?</label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
@@ -241,6 +270,8 @@
     <footer>
 
     </footer>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
     <script type="module" src="js/main.js"></script>
 
 </body>

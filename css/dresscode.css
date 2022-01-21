@@ -11,27 +11,43 @@
 .dressCode {
     height: 100%;
     width: 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    overflow: hidden;
+  
 }
+
+.owl-stage {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.item {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
 
 .dresscode h1 {
     height: 3rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    
 }
 
 .dressM {
-    background-image: url(../img/dressCodeM.jpg);
+    
     transform: translateX(-150%);
 }
 
 .dressF {
-    background-image: url(../img/dressCodeF.jpg);
+    
     transform: translateX(150%);
 }
+
+
 
 .infoDresscode {
     width: 100%;
