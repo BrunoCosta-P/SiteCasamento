@@ -1,56 +1,54 @@
 .dicas {
     height:auto;
     width:100vw;
-    display: flex;
-    flex-direction: row;
     padding: 2rem 5%;
 }
 
-.dicasInfo {
-    width:40%;
-    height: 100%;
+.dicas_titulo {
+
     text-align: center;
+    padding: 0 0 2.5rem 0;
 }
 
-.dicasInfo p {
-    display: flex;
-    align-items: center;
-    height: 60vh;
-    margin-bottom:1rem;
-    transform: translateX(-150%)
-
-}
-
-
-
-
-.dicasLink {
-    width: 60%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    
-}
 
 .container {
-    height: auto;
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
     margin-bottom: 1rem;
+}
+
+.c1 {
+    margin-bottom: 2.5rem;
+}
+
+.c2 {
+    flex-direction:row-reverse;
+}
+
+.dicas_P {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:40%;
+    text-align: center;
+   
+    padding: 0.5rem
 
 }
 
+.dicasP1 {
+    transform: translateX(-150%);
+}
+
+.dicasP2{
+    transform: translateX(150%);
+}
+
+
 .indicacao {
-    height: 100%;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: .5rem;
     transform:scale(.01);
-    
+    text-align: center;
+    width:17%;
+    margin: 0 .5rem
 }
 
 .indicacao a {
@@ -72,12 +70,13 @@
 .indi1 {
     background-image: url(../img/hotelAbrico.jpg);
     background-size: cover;
-    
+
 }
 
 .indi2 {
     background-image: url(../img/hotelArrastao.jpg);
     background-size: cover;
+    background-position-x: center;
 }
 
 .indi3 {

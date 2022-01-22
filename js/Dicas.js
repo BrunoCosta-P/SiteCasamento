@@ -36,7 +36,7 @@ class Dicas {
             this.in3.style.transitionDelay = '.3s'
         }
 
-        if (posicaoDicas <= 112) {
+        if (posicaoDicas <= -100) {
             this.dicasP2.style.transform = 'translateX(0)'
             this.dicasP2.style.transition = 'transform 1.5s ease-in-out';
             this.in4.style.transform = 'scale(1)';
