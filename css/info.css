@@ -1,33 +1,68 @@
 .info {
-    height:95vh;
+    height:100vh;
     width:auto;
     display:flex;
-    padding:2rem 0 ;
-    ;
-}
-
-.imgInfo {
-    height: 100%;
-    width: 60%;
-    display: flex;
     flex-direction: column;
-
+    padding:2rem 5%;
+    text-align:center;
 }
 
-.mapa {
-    margin: 0 5%;
+.local__infomacao {
     height:50%;
-    width:100%
-} 
+    width:100%;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
 
 .carroselInfo {
-    height:65%;
-    width:100%;
-    margin: 0 5%;
+    height:100%;
+    width:65%;
     transform: translateX(-150%);
     background-image: url(../img/abricoPraia.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
+    border-radius: 5px;
+}
+
+.local, .cerimonia {
+    width:30%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.cerimonia {
+
+    transform: translateX(220%);
+ 
+}
+
+.local{
+
+    transform: translateX(150%);
+
+}
+
+.mapa__informacao{
+
+    height:50%;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.mapa {
+    height:100%;
+    width:65%;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 iframe {
@@ -35,43 +70,3 @@ iframe {
     height: 100%;
     transform: translateX(-170%);
 }
-
-.informacoes{
-    height: 100%;
-    width: 40%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-size: 1.2 rem;
-    position: relative;
-}
-
-.cermonia {
-    margin: 5rem 0 4rem 0;
-    transform: translateX(220%);
-    overflow: hidden;
-}
-
-.local{
-    margin: 0 0 5rem 0;
-    transform: translateX(150%);
-    overflow: hidden;
-}
-
-.cermonia p, .local p{
-    margin-bottom: .5rem;
-
-}
-
-.cermonia p:first-child, .local p:first-child{
-    font-size: 1.5rem ;
-    font-weight: bold
-}
-
-.cermonia p:first-child,.local p:first-child{
-    margin-bottom: 1.1rem;
-}
-
-

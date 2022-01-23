@@ -38,3 +38,12 @@ header ul li {
 .dresscode, .rsvp {
     background-image: linear-gradient(#f1d7d6 5%, white )
 }
+
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}

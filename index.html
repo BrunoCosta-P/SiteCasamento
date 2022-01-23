@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/dicas.css">
     <link rel="stylesheet" href="css/listaPresentes.css">
     <link rel="stylesheet" href="css/dresscode.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Giuliana & Bruno</title>
 </head>
 <body>
@@ -36,25 +37,27 @@
             </div>
         </section>
         <section class="info" id="sectionInfo">
-            <div class="imgInfo">
+            <div class="local__infomacao">
                 <div id="carroselInfo" class="carroselInfo">
 
                 </div>
-                <div class="mapa">
-                    <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.3689136181724!2d-45.40582568501809!3d-23.76987398457973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d29b99ed6db291%3A0xcf7d42563c773ba3!2sEspa%C3%A7o%20Abric%C3%B3%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1636933007830!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-          
-            </div>
 
-            <div class="informacoes">
-                <div id="cerimonia" class="cermonia">
-                    <h1>CERIMONIA</h1>
+                <div id="cerimonia" class="cerimonia">
+                    <h1>CERIMÔNIA</h1>
                     <p>Sábado</p>
                     <p>22 de Outubro de 2022</p>
                     <p>3:30pm</p>
                 </div>
+                
+            </div>
+
+            <div class="mapa__informacao">
+                <div class="mapa">
+                    <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.3689136181724!2d-45.40582568501809!3d-23.76987398457973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d29b99ed6db291%3A0xcf7d42563c773ba3!2sEspa%C3%A7o%20Abric%C3%B3%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1636933007830!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+          
                 <div id="local" class="local">
-                    <p>LOCAL</p>
+                    <h1>LOCAL</h1>
                     <p>Espaço Abricó Eventos</p>
                     <p>Rod. Dr. Manoel Hipólito do Rêgo, 2354</p>
                     <p>Praia do Arrastão, São Sebastião - SP</p>
@@ -116,19 +119,19 @@
                         <p id="dicasP1" class="dicas_P dicasP1">Nada melhor que aproveitar o final de semana inteiro na praia, então aqui estão alguns hoteis que indicamos.</p>
 
                         <div class="indicacao in1" id="in1">
-                            <a href="https://www.instagram.com/abrico_beach_hotel/">
+                            <a href="https://www.instagram.com/abrico_beach_hotel/" target="_blank">
                                 <img class="indi1">
                                 <p>Abricó Beach Hotel<br>10% off</p>
                             </a>
                         </div>
                         <div class="indicacao in2" id="in2">
-                            <a href="https://www.hotelarrastao.tur.br/">
+                            <a href="https://www.hotelarrastao.tur.br/" target="_blank">
                                 <img class="indi2">
                                 <p>Hotel Arrastão</p>
                             </a>
                         </div>
                         <div class="indicacao in3" id="in3">
-                            <a href="https://hotelveleiro.com/">
+                            <a href="https://hotelveleiro.com/" target="_blank">
                                 <img class="indi3">
                                 <p>Hotel Veleiro</p>
                             </a>
@@ -137,24 +140,28 @@
                     <div class="container c2">
                         <p id="dicasP2" class="dicas_P dicasP2">E pra quem quiser se arrumar com algum profissional ai vão algumas sugestões.</p>
 
-                        <div class="indicacao in4" id="in4">
-                            <a href="https://www.facebook.com/Guidas-Cabeleireiros-157989481003439/">
-                                <img class="indi4">
-                                <p>Guida's Cabeleireiros</p>
-                            </a>
-                        </div>
-                        <div class="indicacao in5" id="in5">
-                            <a href="https://www.wecutilhabela.com.br/">
+                        <div class="indicacao in5" id="in6">
+                            <a href="https://www.wecutilhabela.com.br/" target="_blank">
                                 <img class="indi5">
                                 <p>We Cut by Elaine Pessoa</p>
                             </a>
                         </div>
-                        <div class="indicacao in6" id="in6">
-                            <a href="https://www.facebook.com/Francisco-Deborah-Cabeleireiros-1360861070591210/">
+
+                        <div class="indicacao in6" id="in5">
+                            <a href="https://www.facebook.com/Francisco-Deborah-Cabeleireiros-1360861070591210/" target="_blank">
                                 <img class="indi6">
                                 <p>Francisco & Deborah Cabeleireiros</p>
                             </a>
                         </div>
+
+                        <div class="indicacao in4" id="in4">
+                            <a href="https://www.facebook.com/Guidas-Cabeleireiros-157989481003439/" target="_blank">
+                                <img class="indi4">
+                                <p>Guida's Cabeleireiros</p>
+                            </a>
+                        </div>
+                       
+                        
                     </div>
                
 
@@ -166,21 +173,22 @@
 
             <form  class="formRsvp" id="formRsvp" action="https://formsubmit.co/giuebruno@outlook.com" method="POST">
                 
-                <label for="nome" id="nomeForm">Quem é você?</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <label for="nome" id="nomeForm">Qual o seu nome?</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
                 <label for="tel" id="telForm">Me fala seu WhatsApp</label>
-                <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000">
+                <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000" maxlength="11" required >
+                
                 <label for="email" id="emailForm">E qual seria seu e-mail?</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
                 <label for="date" id="dateForm">Vai chegar quando na praia?</label>
-                <input type="date" name="date" id="date">
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <input type="date" name="date" id="date" required>
+                <input type="hidden" name="_next" value="https://giuebruno.com.br/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="submit" value="Enviar" class="btn" id="btnForm">
                 
             </form>
         </section>
-        <section class="listaPresente" id="sectionListaPresente">
+   <!--     <section class="listaPresente" id="sectionListaPresente">
 
             <h1 class="lista">Lista de Presentes</h1>
 
@@ -188,7 +196,7 @@
                 <div class="presente" id="presente1">
                     <div class="imgPresente img1"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/jogo-panelas-antiaderentes-5-pe%C3%A7as-santorini-ana-maria-braga/p-603260" class="linkLista">
+                        <a href="https://www.precolandia.com.br/jogo-panelas-antiaderentes-5-pe%C3%A7as-santorini-ana-maria-braga/p-603260" class="linkLista" target="_blank">
                             <p>Jogo de Panelas Antiaderentes 5 Peças Santorini - Ana Maria Braga <br><strong>R$ 299,00</strong></p>
                         </a>
                     </div>
@@ -197,7 +205,7 @@
                 <div class="presente" id="presente2">
                     <div class="imgPresente img2"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/frigideira-wok-santorini-tampa-28cm-preta-meridional/p-582727" class="linkLista">
+                        <a href="https://www.precolandia.com.br/frigideira-wok-santorini-tampa-28cm-preta-meridional/p-582727" class="linkLista" target="_blank">
                             <p>Frigideira Wok Santorini com Tampa 28cm Preta - Meridional<br><strong>R$ 129,90</strong></p>
                         </a>
                     </div>
@@ -206,7 +214,7 @@
                 <div class="presente" id="presente3">
                     <div class="imgPresente img3"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/m%C3%A1quina-macarr%C3%A3o-ana-maria-braga-3-massas/p-939323" class="linkLista">
+                        <a href="https://www.precolandia.com.br/m%C3%A1quina-macarr%C3%A3o-ana-maria-braga-3-massas/p-939323" class="linkLista" target="_blank">
                             <p>Máquina de Macarrão Ana Maria Braga para 3 Massas<br><strong>R$209,90</strong></p>
                         </a>
                     </div>
@@ -215,7 +223,7 @@
                 <div class="presente" id="presente4">
                     <div class="imgPresente img4"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/fouet-inox-hercules/p-563447" class="linkLista">
+                        <a href="https://www.precolandia.com.br/fouet-inox-hercules/p-563447" class="linkLista" target="_blank">
                             <p>Fouet de Inox - Hercules<br><strong>R$34,90</strong></p>
                         </a>
                     </div>
@@ -224,7 +232,7 @@
                 <div class="presente" id="presente5">
                     <div class="imgPresente img5"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/liquidificador-mondial-l-1200-bi-12-velocidades-preto/p-964026" class="linkLista">
+                        <a href="https://www.precolandia.com.br/liquidificador-mondial-l-1200-bi-12-velocidades-preto/p-964026" class="linkLista" target="_blank">
                             <p>Liquidificador Mondial L-1200 Bi com 12 Velocidades Preto<br><strong>R$ 229,90</strong></p>
                         </a>
                     </div>
@@ -233,7 +241,7 @@
                 <div class="presente" id="presente6">
                     <div class="imgPresente img6"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/batedeira-planet%C3%A1ria-php500-turbo-vermelha-11-velocidades-philco/p-946320" class="linkLista">
+                        <a href="https://www.precolandia.com.br/batedeira-planet%C3%A1ria-php500-turbo-vermelha-11-velocidades-philco/p-946320" class="linkLista" target="_blank">
                             <p>Batedeira Planetária Php500 Turbo Vermelha com 11 Velocidades - Philco<br><strong>R$ 549,90</strong></p>
                         </a>
                     </div>
@@ -242,7 +250,7 @@
                 <div class="presente" id="presente7">
                     <div class="imgPresente img7"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/mixer-brit%C3%A2nia-bmx201-preto-127v/p-536970" class="linkLista">
+                        <a href="https://www.precolandia.com.br/mixer-brit%C3%A2nia-bmx201-preto-127v/p-536970" class="linkLista" target="_blank">
                             <p>Mixer Britânia Bmx201 Preto 127v<br><strong>R$ 99,90</strong></p>
                         </a>
                     </div>
@@ -251,7 +259,7 @@
                 <div class="presente" id="presente8">
                     <div class="imgPresente img8"></div>
                     <div class="valorPresente">
-                        <a href="precolandia.com.br/grill-cadence-club-sandwich/p-454117" class="linkLista">
+                        <a href="precolandia.com.br/grill-cadence-club-sandwich/p-454117" class="linkLista" target="_blank">
                             <p>Grill Cadence Club Sandwich<br><strong>R$ 169,90</strong></p>
                         </a>
                     </div>
@@ -260,21 +268,23 @@
                 <div class="presente" id="presente9">
                     <div class="imgPresente img9"></div>
                     <div class="valorPresente">
-                        <a href="https://www.precolandia.com.br/faqueiro-tramontina-36-pe%C3%A7as-amazonas/p-507385" class="linkLista">
+                        <a href="https://www.precolandia.com.br/faqueiro-tramontina-36-pe%C3%A7as-amazonas/p-507385" class="linkLista" target="_blank">
                             <p>Faqueiro Tramontina 36 Peças Amazonas<br><strong>R$ 339,90</strong></p>
                         </a>
                     </div>
                 </div>
 
                 <div >
-                    <a href="*" > <p class="btnPresente" id="btnPresente"> Ver lista completa</p></a>
+                    <a href="*" target="_blank"> <p class="btnPresente" id="btnPresente"> Ver lista completa</p></a>
                 </div>
 
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
-
+        <h3 class="h3__footer">
+            "Mas, como está escrito: as coisas que o olho não viu, e o ouvido não ouviu, e não subiram ao coração do homem são as que Deus preparou para os que o amam". I Cor 2.9
+        </h3>
     </footer>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
