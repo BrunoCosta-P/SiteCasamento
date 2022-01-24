@@ -1,10 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Praise&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+/* font-family: 'Cookie', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* font-family: 'Sacramento', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/* font-family: 'Parisienne', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+/* font-family: 'Mea Culpa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+/* font-family: 'Tangerine', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+/* font-family: 'Qwitcher Grypen', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/* font-family: 'Allura', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+/* font-family: 'Imperial Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 
 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Playfair Display', serif; text-decoration: none; overflow-x: hidden;}
 
 
+h1 { 
+    font-family: 'Sacramento', cursive;
+    
+}
 
+.title {
+    font-size: 2rem !important;
+}
 
 header {
     width: 100%;
@@ -15,7 +54,7 @@ header {
     padding: 0 3%;
 }
 
-header p {
+header h1 {
     font-size: 2.5rem;
 }
 

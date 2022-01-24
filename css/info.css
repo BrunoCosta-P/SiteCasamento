@@ -42,6 +42,10 @@
  
 }
 
+.cerimonia h1, .local h1 {
+    margin-bottom:.5rem;
+}
+
 .local{
 
     transform: translateX(150%);
