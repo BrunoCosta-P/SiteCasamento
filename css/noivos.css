@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .imgNoivos {
@@ -19,6 +21,14 @@
     transform: translateY(-97%);
 }
 
+
+.header__data{
+    position: absolute;
+    z-index: -1;
+    font-size: 13rem;
+    opacity: .15;
+
+}
 
 .btnsubir {
     border: 1px solid black;

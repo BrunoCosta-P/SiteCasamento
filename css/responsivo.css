@@ -1,0 +1,184 @@
+@media screen and (max-width: 1050px){
+    .header__data {
+        font-size:10rem;
+    }
+
+    .info {
+        height:60vh;
+    }
+
+    .femenino, .masculino{
+        height:auto;
+    }
+
+    .dressCode {
+        height:60vh;
+    }
+    .exemploDresCode {
+        height:60vh;
+    }
+
+    .indicacao img {
+        height:30vh;
+    }
+
+    .rsvp {
+        height:auto;
+    }
+
+    input {
+        height:2.5rem
+    }
+
+    #nome, #tel, #email{
+        width:60vw;
+    }
+
+
+    footer {
+        height: 10vh;
+    }
+   
+}
+
+@media screen and (max-width: 880px){
+    .nomeNoivos {
+        font-size:4rem
+    }
+
+    .header__data {
+        font-size:7rem;
+    }
+}
+
+@media screen and (max-width: 770px){
+
+    .noivos {
+        height:60vh;
+    }
+    .exemploDresCode,  .dressCode {
+        height:40vh;
+    }
+
+    .indicacao img {
+        height:20vh;
+    }
+
+    .info {
+        height:40vh;
+    }
+
+    #date {
+        width: 30vw;
+    }
+
+    .btn {
+        width:20vw;
+    }
+}
+
+@media screen and (max-width: 640px){
+    
+    header {
+        height:7vh;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header ul li{
+        font-size:1.5rem;
+    }
+
+    .nomeNoivos {
+        font-size: 3rem
+    }
+}
+
+@media screen and (max-width: 550px){
+    .header__data {
+        font-size: 4rem;
+    }
+
+    .info {
+        height:auto;
+    }
+
+    .local__infomacao, .mapa__informacao{
+        flex-direction: column-reverse;
+    }
+
+    .cerimonia, .local {
+        width:100%;
+        margin-bottom: .5rem;
+    }
+
+    .carroselInfo, .mapa {
+        width:80vw;
+        height:25vh;
+    }
+
+    #pFemenino, #pMasculino {
+        font-size: .9rem !important;
+    } 
+
+
+    .conatainer {
+        margin-bottom:.5rem;
+    }
+
+    .dicas_P {
+        font-size: .9rem;
+        width:80vw;
+        margin-bottom: .5rem
+    }
+
+    .indicacao a p {
+        font-size: .7rem;
+    }
+
+    footer {
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header ul li{
+        font-size:1rem;
+    }
+    
+    .noivos {
+        height:50vh;
+    }
+
+    .nomeNoivos {
+        font-size: 2.3rem;
+    }
+
+    .carroselInfo, .mapa {
+        height:17vh;
+    }
+
+    .femenino, .masculino{
+        flex-direction: column-reverse;
+    }
+
+    .dressCode {
+        height:40vh;
+        width:80vw;
+    }
+    .exemploDresCode {
+        height:40vh;
+        width:50%;
+    }
+
+    #pFemenino, #pMasculino {
+        width: 80vw;
+    } 
+}

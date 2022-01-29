@@ -38,8 +38,8 @@ window.onload = () => {
 
     //_____________________________________________________________________
 
-    const animaLista = new ListaPresentes();
-    document.addEventListener('scroll', animaLista.scrollLista.bind(animaLista))
+    //const animaLista = new ListaPresentes();
+    //document.addEventListener('scroll', animaLista.scrollLista.bind(animaLista))
 
 
 
