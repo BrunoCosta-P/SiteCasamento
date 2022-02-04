@@ -5,6 +5,7 @@
     flex-direction: column;
     padding:2rem 5%;
     text-align:center;
+    
 }
 
 .local__infomacao {
@@ -25,6 +26,7 @@
     background-repeat:no-repeat;
     background-size: 100%;
     border-radius: 5px;
+    opacity: 0;
 }
 
 .local, .cerimonia {
@@ -33,12 +35,15 @@
     display:flex;
     flex-direction:column;
     justify-content:center;
+  
 
 }
 
 .cerimonia {
 
     transform: translateX(220%);
+    opacity: 0;
+    
  
 }
 
@@ -46,10 +51,14 @@
     margin-bottom:.5rem;
 }
 
+.cerimonia p, .local p {
+    font-size:1.25rem
+}
+
 .local{
 
     transform: translateX(150%);
-
+    opacity: 0;
 }
 
 .mapa__informacao{
@@ -73,4 +82,5 @@ iframe {
     width: 100%;
     height: 100%;
     transform: translateX(-170%);
+    opacity: 0;
 }

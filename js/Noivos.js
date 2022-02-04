@@ -3,6 +3,7 @@ class  Noivos {
         this.sectionNoivos = document.getElementById('sectionNoivos')
         this.nomeNoivos = document.getElementById('nomeNoivos')
         this.btnSubir = document.getElementById('btnSubir')
+        this.cabecalho = document.getElementById('cabecalhoNoivos')
     }
 
 
@@ -25,15 +26,18 @@ class  Noivos {
 
         
         //_____________________________________________________________________
-        //Botão Subir
+        //Botão Subir e Cabeçalho
 
         if (posicaoNoivos <= -600){
+            this.cabecalho.style.opacity= '1';
+            this.cabecalho.style.transition = 'opacity 1s ease-in-out';
             this.btnSubir.style.opacity = '1';
             this.btnSubir.style.cursor = 'none';
             this.btnSubir.style.transition = 'opacity 1s ease-in-out';
         } 
         if(posicaoNoivos >= -600){
             this.btnSubir.style.opacity = '0';
+            this.cabecalho.style.opacity= '0';
         }
     }
 

@@ -46,3 +46,19 @@
 .btnsubir a {
     color: black;
 }
+
+
+.cabecalho {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 10%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-image: linear-gradient(rgba(248, 236, 235, .92)65%,rgba(248, 236, 235, 0));
+    opacity: 0;
+}

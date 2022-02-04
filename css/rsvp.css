@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     
 }
@@ -24,18 +24,19 @@
 
 label {
     margin: 0 0 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     opacity: 0;
     overflow: hidden;
-    height: 1.5rem;
+    height: auto;
 }
 
 input {
     margin: 0 0 2rem 0;
     text-align: center;
-    height: 2rem;
+    height: 3rem;
     border-radius: 5px;
     opacity: 0;
+    font-size: 1.1rem
 }
 
 #nome, #tel, #email {

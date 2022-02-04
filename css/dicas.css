@@ -1,7 +1,7 @@
 .dicas {
     height:auto;
     width:100vw;
-    padding: 2rem 5%;
+    padding: 1rem 5%;
 }
 
 .dicas_titulo {
@@ -26,20 +26,21 @@
 }
 
 .dicas_P {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     width:40%;
     text-align: center;
-   
-    padding: 0.5rem
+    padding: 0.5rem 2rem;
 
 }
 
 .dicasP1 {
     transform: translateX(-150%);
+    opacity: 0;
 }
 
 .dicasP2{
     transform: translateX(150%);
+    opacity: 0;
 }
 
 
@@ -47,7 +48,8 @@
     transform:scale(.01);
     text-align: center;
     width:17%;
-    margin: 0 .5rem
+    margin: 0 .5rem;
+    opacity: 0;
 }
 
 .indicacao a {
@@ -105,5 +107,5 @@
 }
 
 .indicacao p {
-    height: 10vh;
+    height: 15vh;
 }

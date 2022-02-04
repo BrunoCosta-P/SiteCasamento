@@ -19,16 +19,20 @@ class Dresscode {
 
        if (posicaoDresscode <= 250 ) {
            this.pFemenino.style.transform = 'translateX(0)';
-           this.pFemenino.style.transition = 'transform 1.5s ease-in-out';
+           this.pFemenino.style.opacity = '1';
+           this.pFemenino.style.transition = 'transform 2.5s ease-in-out, opacity 2.5s ease-out';
            this.dressF.style.transform= 'translateX(0)';
-           this.dressF.style.transition = 'transform 1.5s ease-in-out';
+           this.dressF.style.opacity = '1';
+           this.dressF.style.transition = 'transform 2.5s ease-in-out, opacity 2.5s ease-out';
        }
 
        if (posicaoDresscode <= -270){
            this.dressM.style.transform = 'translateX(0)';
-           this.dressM.style.transition = 'transform 1.5s ease-in-out';
+           this.dressM.style.opacity = '1';
+           this.dressM.style.transition = 'transform 2.5s ease-in-out, opacity 2.5s ease-out';
            this.pMasculino.style.transform = 'translateX(0)';
-           this.pMasculino.style.transition = 'transform 1.5s ease-in-out';
+           this.pMasculino.style.opacity = '1';
+           this.pMasculino.style.transition = 'transform 2.5s ease-in-out, opacity 2.5s ease-out';
        }
 
     }

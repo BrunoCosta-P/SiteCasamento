@@ -158,7 +158,7 @@
     }
 
     .nomeNoivos {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .carroselInfo, .mapa {
@@ -169,16 +169,40 @@
         flex-direction: column-reverse;
     }
 
+    .dresscode{
+        margin-bottom: .5rem;
+    }
     .dressCode {
         height:40vh;
-        width:80vw;
+        width:50vw;
     }
     .exemploDresCode {
         height:40vh;
-        width:50%;
+        width:100%;
     }
 
     #pFemenino, #pMasculino {
         width: 80vw;
     } 
+
+    .indicacao img {
+        height:17vh;
+    }
+
+    .c1 {
+        margin-bottom: .5rem;
+    }
+
+    .c1 .indicacao a p {
+        height: 16vh;
+    }
+
+    .c2 .indicacao a p {
+        height: auto;
+    }
+
+    input {
+        height:2rem
+    }
+
 }

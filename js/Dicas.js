@@ -24,29 +24,37 @@ class Dicas {
 
         if (posicaoDicas <= 405){
             this.dicasP1.style.transform = 'translateX(0)';
-            this.dicasP1.style.transition = 'transform 1.5s ease-in-out';
+            this.dicasP1.style.opacity = '1';
+            this.dicasP1.style.transition = 'transform 1.8s ease-in-out, opacity 2s ease-out';
             this.in1.style.transform = 'scale(1)';
-            this.in1.style.transition = 'transform .5s ease-in-out';
+            this.in1.style.opacity = '1';
+            this.in1.style.transition = 'transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in1.style.transitionDelay = 'no'
             this.in2.style.transform = 'scale(1)';
-            this.in2.style.transition ='transform .5s ease-in-out';
+            this.in2.style.opacity = '1';
+            this.in2.style.transition ='transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in2.style.transitionDelay = '.2s'
             this.in3.style.transform = 'scale(1)';
-            this.in3.style.transition ='transform .5s ease-in-out';
+            this.in3.style.opacity = '1';
+            this.in3.style.transition ='transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in3.style.transitionDelay = '.3s'
         }
 
         if (posicaoDicas <= -100) {
             this.dicasP2.style.transform = 'translateX(0)'
-            this.dicasP2.style.transition = 'transform 1.5s ease-in-out';
+            this.dicasP2.style.opacity = '1';
+            this.dicasP2.style.transition = 'transform 1.8s ease-in-out, opacity 2s ease-out';
             this.in4.style.transform = 'scale(1)';
-            this.in4.style.transition = 'transform .5s ease-in-out';
+            this.in4.style.opacity = '1';
+            this.in4.style.transition = 'transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in4.style.transitionDelay = 'no'
             this.in5.style.transform = 'scale(1)';
-            this.in5.style.transition = 'transform .5s ease-in-out';
+            this.in5.style.opacity = '1';
+            this.in5.style.transition = 'transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in5.style.transitionDelay = '.2s'
             this.in6.style.transform = 'scale(1)';
-            this.in6.style.transition = 'transform .5s ease-in-out';
+            this.in6.style.opacity = '1';
+            this.in6.style.transition = 'transform 1s ease-in-out, opacity 1.5s ease-out';
             this.in6.style.transitionDelay = '.3s'
         }
 

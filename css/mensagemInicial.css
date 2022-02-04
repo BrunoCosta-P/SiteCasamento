@@ -1,0 +1,14 @@
+.mensagem__inicial {
+    width: 100vw;
+    height:30vh;
+    padding: 0 7%;
+    margin-top: .5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.texto__mensagem{
+   
+}

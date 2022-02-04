@@ -17,16 +17,20 @@ class Info {
 
         if (posicaoInfo <= 392) {
             this.carrosel.style.transform = 'translateX(0)';
-            this.carrosel.style.transition = 'transform 1.5s ease-in-out';
+            this.carrosel.style.opacity = '1';
+            this.carrosel.style.transition = 'transform 2.7s ease-out, opacity 2.7s ease-out';
             this.cerimonia.style.transform= 'translateX(0)';
-            this.cerimonia.style.transition = 'transform 1.5s ease-in-out';
+            this.cerimonia.style.opacity = '1';
+            this.cerimonia.style.transition = 'transform 2s ease-out, opacity 2s ease-out';
         }
 
         if (posicaoInfo <= 170){
             this.iframe.style.transform = 'translateX(0)';
-            this.iframe.style.transition = 'transform 1.6s ease-in-out';
+            this.iframe.style.opacity = '1';
+            this.iframe.style.transition = 'transform 2.7s ease-out, opacity 2.9s ease-out';
             this.local.style.transform= 'translateX(0)';
-            this.local.style.transition = 'transform 1.6s ease-in-out';
+            this.local.style.opacity = '1';
+            this.local.style.transition = 'transform 2.3s ease-out, opacity 2.3s ease-out';
         }
 
 

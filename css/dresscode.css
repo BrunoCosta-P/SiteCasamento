@@ -3,14 +3,16 @@
     height: auto !important;
     display: flex;
     flex-direction: row-reverse;
-    padding: 0 5%;
-    margin-bottom: 3rem;
+    padding: 2rem 5% 0 5%;
+
+    
 }
 
 .dressCode {
     height: 100%;
     width: 30%;
     overflow: hidden;
+    position: relative;
   
 }
 
@@ -21,20 +23,22 @@
 
 
 .dresscode h1 {
-    height: 3rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    
     
 }
 
 .dressM {
     
     transform: translateX(-150%);
+    opacity: 0;
 }
 
 .dressF {
     
     transform: translateX(150%);
+    opacity: 0;
 }
 
 
@@ -62,15 +66,18 @@
 
 .femenino p, .masculino p {
     width:50%;
-    font-size: 1.2rem !important;
+    font-size: 1.35rem !important;
+    padding: 0 3rem;
 }
 
 .femenino p {
-    transform: translateX(-150%)
+    transform: translateX(-150%);
+    opacity: 0;
 }
 
 .masculino p {
-    transform: translateX(150%)
+    transform: translateX(150%);
+    opacity: 0;
 }
 
 
@@ -102,4 +109,11 @@
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
    
+}
+
+.owl-dots {
+    position: absolute;
+    z-index: 99;
+    top: 45%;
+    right:37%;
 }
