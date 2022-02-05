@@ -16,9 +16,9 @@ class  Noivos {
         
 
 
-        if (posicaoNoivos >= -100){
+        if (posicaoNoivos >= -160){
 
-            this.nomeNoivos.style.transform = `translateY(${(-posicaoNoivos )}%)`;
+            this.nomeNoivos.style.transform = `translateY(${(-posicaoNoivos - 60)}%)`;
             this.nomeNoivos.transition = 'transform .5s ease-in-out';
 
         }

@@ -38,6 +38,11 @@
     footer {
         height: 10vh;
     }
+
+    .owl-dots {
+        top: 92%;
+        right:37%;
+    }
    
 }
 
@@ -94,6 +99,11 @@
     .nomeNoivos {
         font-size: 3rem
     }
+
+    .owl-dots {
+        top: 87%;
+        right:18%;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -120,16 +130,25 @@
     }
 
     #pFemenino, #pMasculino {
-        font-size: .9rem !important;
+        font-size: 1.25rem !important;
     } 
 
+    .femenino p, .masculino p{
+        padding: 0;
+        
+    }
+
+    .femenino, .masculino {
+        margin-bottom: 1rem;
+        
+    }
 
     .conatainer {
         margin-bottom:.5rem;
     }
 
     .dicas_P {
-        font-size: .9rem;
+        font-size: 1.25rem;
         width:80vw;
         margin-bottom: .5rem
     }
@@ -185,8 +204,12 @@
         width: 80vw;
     } 
 
+    .indicacao {
+        width:25vw;
+    }
     .indicacao img {
-        height:17vh;
+        height:25vh;
+        width:33vw;
     }
 
     .c1 {
@@ -194,15 +217,76 @@
     }
 
     .c1 .indicacao a p {
-        height: 16vh;
+        height: 18.5vh;
     }
 
     .c2 .indicacao a p {
-        height: auto;
+        height:9vh;
     }
 
     input {
         height:2rem
     }
 
+    #date {
+        width: 42vw;
+    }
+
+    .owl-dots {
+        top: 87%;
+        right:27%;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    header h1 {
+        font-size: .9rem;
+        padding:0 7%;
+    }
+
+    header ul li{
+        font-size:.8rem;
+    }
+   
+    .mensagem__inicial {
+        height:auto;
+    }
+    .texto__mensagem {
+        font-size: 1.25rem ;
+    }
+    .nomeNoivos {
+        font-size: 1.5rem
+    }
+
+    .nome__cabecalho, .data__cabecalho {
+        font-size: .9rem;
+    }
+
+    .carroselInfo, .mapa {
+        height:25vh;
+    }
+
+    .dressCode {
+        height:60vh;
+        width:60vw;
+    }
+    .exemploDresCode {
+        height:60vh;
+        width:60vw;
+    }
+
+    .item img {
+        height:60vh;
+        width:60vw;
+    }
+
+    .btn {
+        width:25vw;
+        text-align: center;
+    }
+
+    footer {
+        height:auto;
+    }
 }
