@@ -1,0 +1,54 @@
+@media screen and (max-width: 640px){
+    
+    header {
+        height:7vh;
+    }
+
+    header p {
+        font-size: 1.8rem;
+    }
+
+    header ul li{
+        font-size:1.5rem;
+    }
+
+    .gif__confirmado {
+        width:80vw;
+    }
+
+    .p__confirmado {
+        text-align:center;
+        padding:0 10vw;
+        height:auto;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    header ul li{
+        font-size:1rem;
+    }
+
+    .gif__confirmado {
+        height:30vh;
+    }
+
+}
+
+
+@media screen and (max-width: 380px){
+    header p {
+        font-size: .9rem;
+        padding:0 7%;
+    }
+
+    header ul li{
+        font-size:.8rem;
+    }
+
+}

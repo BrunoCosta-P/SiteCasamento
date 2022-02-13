@@ -29,6 +29,11 @@
     
 }
 
+.dresscode__subtitle {
+    font-size:1.3rem !important;
+
+}
+
 .dressM {
     
     transform: translateX(-150%);
@@ -61,6 +66,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 1.5rem;
 
 }
 

@@ -26,11 +26,11 @@
         height:auto;
     }
 
-    input {
+    .control-input {
         height:2.5rem
     }
 
-    #nome, #tel, #email{
+    #nome, #tel, #email, .nome__rsvp-nao{
         width:60vw;
     }
 
@@ -150,7 +150,8 @@
     .dicas_P {
         font-size: 1.25rem;
         width:80vw;
-        margin-bottom: .5rem
+        margin-bottom: .5rem;
+        padding: 0 .5rem;
     }
 
     .indicacao a p {
@@ -221,10 +222,25 @@
     }
 
     .c2 .indicacao a p {
-        height:9vh;
+        height:9.5vh;
     }
 
-    input {
+    .indi4{
+        
+        background-position: top 0 right .07rem  ;
+    }
+
+    .indi5{
+        background-size: 90% 100%;
+        background-position: bottom .1rem right 1.12rem;
+    } 
+
+    .indi6{
+        background-size: 70% auto;
+        background-position: left .2rem top 50%;
+    } 
+
+    .control-input {
         height:2rem
     }
 
@@ -234,7 +250,7 @@
 
     .owl-dots {
         top: 87%;
-        right:27%;
+        right:17%;
     }
 
 }

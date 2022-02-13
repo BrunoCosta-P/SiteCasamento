@@ -11,6 +11,16 @@ class Rsvp {
         this.dateForm = document.getElementById('dateForm')
         this.date = document.getElementById('date')
         this.btnForm = document.getElementById('btnForm')
+
+        this.inputRadio = document.getElementById('inputRadio')
+        this.radioSim = document.getElementById('radioSim')
+        this.radioNao = document.getElementById('radioNao')
+        this.labelSim = document.getElementById('labelSim')
+        this.labelNao = document.getElementById('labelNao')
+
+        this.labelNomeNao = document.getElementById('labelNomeNao')
+        this.nomeNao = document.getElementById('nomeNao')
+        this.btnFormNao = document.getElementById('btnFormNao')
     }
 
     scrollRsvp(){
@@ -23,51 +33,24 @@ class Rsvp {
         
 
         if (posicaoRsvp <= 357){
-            this.nomeForm.style.opacity='1';
-            this.nomeForm.style.transition = 'opacity .4s ease-in-out';
-            this.nomeForm.style.transitionDelay = 'no-delay';
+            this.labelSim.style.opacity='1';
+            this.labelSim.style.transition = 'opacity 1.2s ease-in-out';
+            this.labelSim.style.transitionDelay = 'no-delay';
 
-            this.nome.style.opacity='1';
-            this.nome.style.transition = 'opacity .4s ease-in-out';
-            this.nome.style.transitionDelay = '.3s';
-
-            this.telForm.style.opacity='1';
-            this.telForm.style.transition = 'opacity .4s ease-in-out';
-            this.telForm.style.transitionDelay = '.4s';
-
-            this.tel.style.opacity='1';
-            this.tel.style.transition = 'opacity .4s ease-in-out';
-            this.tel.style.transitionDelay = '.5s';
-
-            this.emailForm.style.opacity='1';
-            this.emailForm.style.transition = 'opacity .4s ease-in-out';
-            this.emailForm.style.transitionDelay = '.6s';
-
-            this.email.style.opacity='1';
-            this.email.style.transition = 'opacity .4s ease-in-out';
-            this.email.style.transitionDelay = '.7s';
-
-            this.dateForm.style.opacity='1';
-            this.dateForm.style.transition = 'opacity .4s ease-in-out';
-            this.dateForm.style.transitionDelay = '.8s';
-
-            this.date.style.opacity='1';
-            this.date.style.transition = 'opacity .4s ease-in-out';
-            this.date.style.transitionDelay = '.9s';
-
-            this.btnForm.style.opacity='1';
-            this.btnForm.style.transition = 'opacity .4s ease-in-out';
-            this.btnForm.style.transitionDelay = '1s';
+            this.labelNao.style.opacity='1';
+            this.labelNao.style.transition = 'opacity 1.2s ease-in-out';
+            this.labelNao.style.transitionDelay = '.2s';
 
         }
+    }
 
-
-
+    exibirFormSim(){
 
     }
 
-
-
+    exibirFormNao(){
+        
+    }
 
 }
 
