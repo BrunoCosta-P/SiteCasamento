@@ -1,6 +1,0 @@
-
-window[window["TiktokAnalyticsObject"]].instance("C3FHV91LLTKUJAC5B61G").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
-window[window["TiktokAnalyticsObject"]].instance("C3FHV91LLTKUJAC5B61G").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C3FHV91LLTKUJAC5B61G").setPixelInfo({status: 0, name: "Ponto Pixel", advertiserID: "6917258911015763970", setupMode: 1, partner: "", is_onsite: false });
-window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("pontofrio.com.br");
-window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
-window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(false);
