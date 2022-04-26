@@ -1,0 +1,70 @@
+.CBestrutura { width:910px; font:12px Arial, Helvetica, sans-serif; margin:0 auto; background-color:#FFF; /*margin:0 0 0 -24px;*/ border:0; outline:0; }
+
+.CBestrutura * { border:0; outline:0; }
+.CBestrutura a{color:#B70F15;}
+
+/* um */
+
+.CBestrutura .CBinternaUm { width:100%; height:auto; clear:both; overflow:hidden; padding-bottom:15px;}
+.CBestrutura .CBinternaUm .CBimg { width:46%; height:auto; float:right; padding:1% 1% 1% 2%; text-align:center; vertical-align:middle; }
+.CBestrutura .CBinternaUm .CBconteudoTexto { width:45%; height:auto;float:left; padding:1% 2% 1% 3%; color:#7b8790; text-align:left;}
+.CBestrutura .CBinternaUm .CBconteudoTexto p { padding-bottom:8px; }
+.CBestrutura .CBinternaUm .CBconteudoTexto h4 { display:block; font-size:26px; margin:20px 0; color:#F40000; font-weight:normal; }
+.CBestrutura .CBinternaUm .CBconteudoTexto h4 span { display:block; font-size:14px; color:#444444}
+.CBestrutura .CBinternaUm ul{ list-style:none inside; } 
+
+/* dois */
+
+.CBestrutura .CBinternaDois { width:100%; height:auto; clear:both; overflow:hidden; padding-bottom:15px;}
+.CBestrutura .CBinternaDois .CBprod{ width:50%; float:left;}
+.CBestrutura .CBinternaDois .CBprod .CBimg { width:33.3%; height:100%; text-align:center; float:left; vertical-align:middle;}
+.CBestrutura .CBinternaDois .CBprod .CBconteudoTexto{ width:64.6%;color:#7b8790; float:left;}
+.CBestrutura .CBinternaDois .CBprod .CBconteudoTexto p{ padding-bottom:8px;}
+.CBestrutura .CBinternaDois .CBprod .CBconteudoTexto h4{ display:block; font-size:16px; margin:5px 0 15px; color:#F40000; font-weight:normal;}
+.CBestrutura .CBinternaDois .CBprod .CBconteudoTexto h4 span{ display:block; font-size:16px; margin:5px 0 15px; color:#444444; font-weight:normal;}
+
+/* tres */
+
+.CBestrutura .CBinternaTres { width:100%; height:auto; clear:both; overflow:hidden; padding-bottom:15px;}
+.CBestrutura .CBinternaTres .CBimg{ text-align:center; padding:10; }
+.CBestrutura .CBinternaTres .CBconteudoTexto{ width:99%; color:#7b8790; float:left; padding-left:10px; padding-right:10px;}
+.CBestrutura .CBinternaTres .CBconteudoTexto p { padding-bottom:8px;}
+.CBestrutura .CBinternaTres .CBconteudoTexto h4 { display:block; font-size:26px; margin:20px 0; color:#F40000; font-weight:normal; }
+.CBestrutura .CBinternaTres .CBconteudoTexto h4 span { display:block; font-size:14px; color:#444444}
+
+
+/* quatro */
+
+.CBestrutura .CBinternaQuatro { width:100%; height:auto; clear:both; overflow:hidden; padding-bottom:15px;}
+.CBestrutura .CBinternaQuatro .CBimg { width:48%; height:auto; float:left; padding:1% 1% 1% 2%; text-align:center; vertical-align:middle; }
+.CBestrutura .CBinternaQuatro .CBconteudoTexto { width:42%; height:auto;float:left; padding:1% 2% 1% 3%; color:#7b8790; text-align:left;}
+.CBestrutura .CBinternaQuatro .CBconteudoTexto p { padding-bottom:8px; }
+.CBestrutura .CBinternaQuatro .CBconteudoTexto h4 { display:block; font-size:26px; margin:20px 0; color:#F40000; font-weight:normal; }
+.CBestrutura .CBinternaQuatro .CBconteudoTexto h4 span { display:block; font-size:14px; color:#444444}
+.CBestrutura .CBinternaQuatro ul{ list-style:none inside; } 
+
+/* cinco */
+
+.CBestrutura .CBinternaCinco { width:100%; height:auto; clear:both; overflow:hidden; padding-bottom:15px;}
+.CBestrutura .CBinternaCinco .CBimgLeft { width:82%;height:auto; padding:0; text-align:center; vertical-align:middle;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoLeft { width:45%; float:left; padding:1% 2% 1% 3%; color:#696969; text-align:left;border-right:3px #E6303A solid;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoLeft p { width:82%; padding-bottom:8px; }
+.CBestrutura .CBinternaCinco .CBconteudoTextoLeft h4 { width:82%;display:block; font-size:26px; margin:20px 0; color:#F40000; font-weight:normal;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoLeft h4 span { width:82%;display:block; font-size:14px;color:#444444 }
+.CBestrutura .CBinternaCinco .CBimgRight {  width:93%;height:auto; padding:0; text-align:center; vertical-align:middle;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoRight { width:40%; float:right; padding:1% 2% 1% 3%; color:#696969; text-align:left;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoRight p { padding-bottom:8px; }
+.CBestrutura .CBinternaCinco .CBconteudoTextoRight h4 { display:block; font-size:26px; margin:20px 0; color:#F40000; font-weight:normal;}
+.CBestrutura .CBinternaCinco .CBconteudoTextoRight h4 span { display:block; font-size:14px; color:#444444}
+.CBestrutura .CBinternaCinco ul{ list-style:none inside; } 
+
+.CBestrutura .CBdivisao{ width:100%; height:auto; clear:both; overflow:hidden; padding:15px 0 60px; text-align:center;}
+
+/*advice quote*/
+.adviceQuote{margin:10px 0 20px;overflow:hidden;}
+.adviceQuote .quote{font-size:2em;display:inline;font-style:italic;}
+.adviceQuote .adviceAuthor{display:inline;font-weight:bold;}
+.adviceQuote .lnkReviews{margin-top:20px;float:right;font-size:0.9em;font-weight:bold;}
+.adviceQuote .pr-snippet-stars{margin-right:30px;height:60px;}
+.adviceQuote .pr-snippet-stars .pr-stars-small{background-position:0px -180px;}
+/*end advice quote*/

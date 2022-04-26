@@ -1,0 +1,197 @@
+var TagEConfy = window.document.getElementById('TagEConfy');
+var bannerEconfy = window.document.getElementById('bannerEconfy');
+var selo = window.document.getElementById("seloEconfy");
+
+var econfy_containerfooter = window.document.getElementsByClassName("banner")[0];
+
+var lightboxScriptElement = getLightBoxElement();
+var seloScriptElement = getSeloScriptElement();
+
+var tlink = document.createElement("link");
+var nmeta = document.createElement("meta");
+var ccModal = document.createElement("div");
+
+viewport = document.querySelector("meta[name=viewport]"),
+    tlink.rel = "stylesheet",
+    tlink.href = "https://banner.compreconfie.com.br/styles/getData.css",
+    null == viewport && (nmeta.name = "viewport",
+        nmeta.content = "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width",
+        document.getElementsByTagName("head")[0].appendChild(nmeta)),
+    document.getElementsByTagName("head")[0].appendChild(tlink);
+
+if (TagEConfy !== null && TagEConfy !== undefined) {
+
+    var b = decodeURI(TagEConfy.value);
+    var x = queryStringToJSON(b);
+
+    if (!window.sentData) {
+        sendCompra(x);
+        window.sentData = true;
+    }
+
+    if (b !== '' && b !== null && b !== undefined) {
+        if (bannerEconfy != null && bannerEconfy !== undefined) {
+
+            if (!window.includedEconfyLightBoxBanner && lightboxScriptElement) {
+
+                window.includedEconfyLightBoxBanner = true;
+                let jsonParam = {
+                    "seller_id": x.orderSellerID,
+                    "step": 1,
+                    "cpf": x.billingCPF,
+                    "email": x.billingEmail,
+                    "order_guid": x.orderID,
+                    "origin_id": 3,
+                    "integration_type": 1
+                }
+                
+                // var parametros = btoa(JSON.parse(jsonParam));
+
+                // bannerEconfy.href = "http://pesquisa.confi.com.vc/survey/?seller_id="
+                //     + x.orderSellerID + "&step=1&cpf=" + x.billingCPF +
+                //     "&email=" + x.billingEmail + "&order_guid=" + x.orderID + "&origin_id=3&integration_type=1&p=" + parametros;
+
+                var parametros = btoa(JSON.stringify(jsonParam));
+
+                bannerEconfy.href = "http://pesquisa.confi.com.vc/survey/p=" + parametros;
+
+                bannerEconfy.target = "_blank";
+
+                //103312 para logo FastShop
+                if (!lightboxScriptElement.lightbox) {
+                    if (seloScriptElement.sellerId == '103312') {
+                        bannerEconfy.innerHTML += '<img src="https://banner.compreconfie.com.br/banner/banner-fastShop.png"/>'
+                    } else {
+                        bannerEconfy.innerHTML += '<img src="https://banner.compreconfie.com.br/banner/b.gif"/>'
+                    }
+
+                } else {
+                    ccModal.classList.add('CCmodal-econfy');
+                    ccModal.setAttribute("id", "CCmodal");
+                    bannerEconfy.parentElement.appendChild(ccModal);
+
+                    var imgBanner = document.createElement("img");
+                    imgBanner.src = 'https://banner.compreconfie.com.br/tag/l.gif';
+                    imgBanner.classList.add('CChover-shadow');
+                    bannerEconfy.appendChild(imgBanner);
+
+                    var divClose = document.createElement("div");
+                    var spanClose = document.createElement("span");
+                    spanClose.classList.add('CCclose');
+                    spanClose.innerText = 'X';
+
+                    divClose.appendChild(spanClose);
+                    ccModal.appendChild(divClose);
+                    ccModal.appendChild(bannerEconfy);
+                    ccModal.appendChild(TagEConfy);
+                }
+
+                if (econfy_containerfooter !== '' && econfy_containerfooter !== null && econfy_containerfooter !== undefined) {
+
+                    let jsonParam = {
+                        "seller_id": x.orderSellerID,
+                        "step": 1,
+                        "cpf": x.billingCPF,
+                        "email": x.billingEmail,
+                        "order_guid": x.orderID,
+                        "origin_id": 3
+                    }
+                    // var parametros = btoa(JSON.parse(jsonParam));
+
+                    // var hrefEndFooter = "http://pesquisa.confi.com.vc/Survey/?seller_id="
+                    //     + x.orderSellerID + "&step=1&cpf=" + x.billingCPF +
+                    //     "&email=" + x.billingEmail + "&order_guid=" + x.orderID + "&origin_id=3&p=" + parametros;
+
+                    var parametros = btoa(JSON.stringify(jsonParam));
+
+                    var hrefEndFooter = "http://pesquisa.confi.com.vc/survey/p=" + parametros;
+
+                    var hrefFooter = '<a id="bannerEconfyFooter" href="' + hrefEndFooter
+                        + '"  target="_blank"><img style="margin-bottom: 1em;" src="https://banner.compreconfie.com.br/banner/b.gif"></a > ';
+
+                    econfy_containerfooter.innerHTML += hrefFooter;
+                }
+            }
+        }
+    }
+}
+
+if (document.body.contains(selo) && selo.getElementsByTagName('img').length == 0) {
+    if (seloScriptElement) {
+        selo.innerHTML += '<img src="https://cdn.confi.com.vc/reputation/' + seloScriptElement.sellerId + '.png"/>';
+    }
+}
+
+var span = document.getElementsByClassName("CCclose")[0];
+var modal = document.getElementById('CCmodal');
+
+if (span) {
+    span.onclick = function (event) {
+        //console.log(event);
+        event.stopPropagation();
+        span.parentNode.removeChild(span);
+        modal.parentNode.removeChild(modal);
+    }
+}
+
+function sendCompra(json) {
+    //PRD
+    var url = "https://tag.compreconfie.com.br/compra";
+    //QA
+    //var url = "https://tagqa.compreconfie.com.br/compra";    
+    var c = new XMLHttpRequest();
+    c.open('POST', url, true);
+    c.setRequestHeader('Content-Type', 'application/json');
+    c.send(JSON.stringify(json));
+}
+
+function queryStringToJSON(queryString) {
+    if (!queryString)
+        queryString = '';
+
+    if (queryString.indexOf('?') > -1) {
+        queryString = queryString.split('?')[1];
+    }
+    var pairs = queryString.split('&');
+    var result = {};
+    pairs.forEach(function (pair) {
+        pair = pair.split('=');
+        result[pair[0]] = pair[1] || '';
+    });
+    return result;
+}
+
+function getLightBoxElement() {
+    for (var i = 0; i < document.scripts.length; i++) {
+        let script = document.scripts[i];
+        if (!script || !script.getAttribute('id'))
+            continue;
+
+        if (script.getAttribute('id').toLowerCase() == 'getdata' && script.src.toLowerCase().indexOf('lightbox') > 0) {
+            let parameterLine = script.src.split('?')[1];
+            let parameters = parameterLine.split('&');
+
+            let result = {};
+            result.sellerId = parameters[0];
+            result.lightbox = parameters[1].indexOf('true') > 0;
+            return result;
+        }
+    }
+}
+
+function getSeloScriptElement() {
+    for (var i = 0; i < document.scripts.length; i++) {
+        let script = document.scripts[i];
+        if (!script || !script.getAttribute('id'))
+            continue;
+
+        if (script.getAttribute('id').toLowerCase() == 'getdata' && script.src.toLowerCase().indexOf('sellerid') > 0) {
+            let parameterLine = script.src.split('?')[1];
+            let parameters = parameterLine.split('&');
+
+            let result = {};
+            result.sellerId = parameters[0].split('=')[1];
+            return result;
+        }
+    }
+}

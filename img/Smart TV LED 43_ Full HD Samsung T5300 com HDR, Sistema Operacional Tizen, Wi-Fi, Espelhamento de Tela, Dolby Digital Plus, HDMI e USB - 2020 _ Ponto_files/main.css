@@ -1,0 +1,1342 @@
+/* GERAL */
+
+@font-face {
+font-family: 'SamsungOne';
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.eot);
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.woff2) format("woff2"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.woff) format("woff"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.ttf) format("truetype");
+font-weight: normal;
+font-style: normal
+}
+
+@font-face {
+font-family: 'SamsungOne';
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.eot);
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.woff2) format("woff2"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.woff) format("woff"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.ttf) format("truetype");
+font-weight: bold;
+font-style: normal
+}
+
+@font-face {
+font-family: 'SamsungSharpSans';
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.eot);
+src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.woff) format("woff");
+font-weight: bold;
+font-style: normal
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapperSamsung {
+	font-family: SamsungOne, sans-serif;
+	background: #fff;
+	color: #000;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.wrapperSamsung p {
+	font-weight: 400;
+	margin: 0;
+	font-size: calc(6px + 1vw);
+	line-height: calc(14px + 1vw);
+}
+
+.wrapperSamsung h2, .wrapperSamsung h3 {
+	font-family: SamsungSharpSans, sans-serif;
+}
+
+.wrapperSamsung h3 {
+	margin: 0 0 2.5%;
+	font-size: calc(24px + 1vw);
+	line-height: calc(30px + 1vw);
+}
+
+.wrapperSamsung h3 sup {
+	vertical-align: super;
+	font-size: .75em;
+}
+
+.wrapperSamsung h4 {
+	font-weight: 700;
+	margin: 0 0 3%;
+	font-size: calc(8px + 1vw);
+	line-height: calc(16px + 1vw);
+}
+
+.wrapperSamsung h4 sup {
+	vertical-align: super;
+	font-size: .75em;
+}
+
+.wrapperSamsung .containerSamsung {
+	overflow: hidden;
+	max-width: 85%;
+	padding: calc(20px + 4%) 15px;
+}
+
+#hdr-samsung .containerSamsung {
+    overflow: visible;
+}
+
+.btn-samsung, .btn-samsung:hover {
+	cursor: pointer;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: calc(12px + 1vw);
+	color: #000;
+	padding: calc(6px + 1vw) calc(15px + 1vw);
+	border: 2px solid #000;
+	border-radius: 50px;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+
+button.btn-samsung {
+	background: #000;
+}
+
+.wrapperSamsung input {
+	display: none;
+}
+
+/* HEADER */
+
+#header-samsung {
+	display: none;
+}
+
+#intro-samsung {
+	background: url(../img/intro-samsung.jpg) left top no-repeat;
+	background-size: cover;
+	height: 0;
+	padding-bottom: 59%;
+}
+
+
+/*legenda tv */
+#legenda-tv-samsung{
+    background-color: #dedede;
+    color: #929191;
+    text-align: center;
+    padding: 2.5% 0 0% 15px;
+    }
+    
+    #legenda-tv-samsung h3{
+        font-size: calc(17px + 1vw);
+    }
+    
+    #legenda-tv-samsung .containerSamsung{
+        padding: 0;
+    }
+    /* Menu */
+    .menu-centro-samsung{
+        width: 50%;
+        background: rgb(254,254,254);
+        background: linear-gradient(353deg, rgba(253,253,253,1) 0%, rgba(222,222,222,1) 50%, rgba(254,254,254,1) 100%);
+        -webkit-box-shadow: 0px 42px 24px -19px rgba(204,204,204,1);
+        -moz-box-shadow: 0px 42px 24px -19px rgba(204,204,204,1);
+        box-shadow: 0px 34px 19px -19px rgb(187, 187, 187); 
+        position: absolute;
+        left: 25%;
+    }
+        
+        #menu-samsung {
+            text-align: center;
+            margin: -4.2% auto 4% auto;
+        }
+        
+        #menu-samsung .containerSamsung {
+            padding: 0;
+            max-width: 100%;
+        }
+        
+        #menu-samsung a{
+            display: block;
+            padding: 48% 0 0 100%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1) {
+            background: url(../img/menu-1.png) center  no-repeat;
+            background-size: 80%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2) {
+            background: url(../img/menu-2.png) center  no-repeat;
+            background-size: 80%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3) {
+            background: url(../img/menu-3.png) center no-repeat;
+            background-size: 80%;
+        }
+        /* hover */
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1):hover {
+            background: url(../img/menu-1-hover.png) center no-repeat;
+            background-color: #000;
+            background-size: 80%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2):hover {
+            background: url(../img/menu-2-hover.png) center  no-repeat;
+            background-size: 80%;
+            background-color: #000;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3):hover {
+            background: url(../img/menu-3-hover.png) center  no-repeat;
+            background-size: 80%;
+            background-color: #000;
+        }
+    
+    #legenda-tv-samsung{
+        text-align: center;
+    }
+	
+#smart-tv-samsung{
+	text-align: center;
+}
+#smart-tv-samsung.containerSamsung{
+	padding: calc(20px + 4%)0 15px;
+}
+
+#anima-smart-tv {
+	position: relative;
+	height: 0;
+	padding-bottom: 38%;
+	background: url(../img/SmartTV-samsung.jpg) top left no-repeat;
+	background-size: cover;
+}
+
+#disclaimer {
+	text-align: justify;
+	font-size: calc(6px + 0.3vw);
+	line-height: calc(8px + 0.8vw);
+}
+
+.containerSamsung.disclaimer{
+	padding:0 0 0 15px;
+}
+
+/* hdr TEMP */
+
+#hdr-samsung {
+	text-align: center;
+}
+
+#anima-hdr-samsung img {
+	width: 100%;
+	cursor: pointer;
+}
+
+#anima-hdr-original:hover + #anima-hdr-zoom, #anima-hdr-zoom:hover{
+	display: block;
+	cursor: pointer;
+	animation: zoom-hdr 5s infinite;
+}
+
+@keyframes zoom-hdr {
+	0% {
+		opacity: 0;
+		width: 16.5% !important;
+		top: 41.6%;
+		right: 35%;
+		z-index:999;
+	}
+	33%,80%{
+		opacity: 1;
+    	transform: scale(3);
+		top: 20.6%;
+		right: 55%;
+		display: block;
+		z-index:999;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.2);
+		z-index:999;
+	}
+}
+
+#anima-hdr-zoom{
+	position: absolute;
+    width: 16.5% !important;
+    top: 41.6%;
+	right: 35%;
+	display: none;
+}
+/* FEICHE*/
+#anima-hdr-feixe{
+	position: absolute;
+    width: 16.5% !important;
+	top: 31.6%;
+    right: 46%;
+	display: none;
+}
+
+
+
+#anima-hdr-original:hover ~ #anima-hdr-feixe, #anima-hdr-feixe:hover{
+	display: block;
+	cursor: pointer;
+	animation: feixe-hdr 5s infinite;
+}
+@keyframes feixe-hdr {
+	0% {
+		opacity: .1;
+		width: 16.5% !important;
+		top: 41.6%;
+		right: 35%;
+		display: block;
+	}
+	33%,70%{
+		opacity: 1;
+    	transform: scale(2);
+		top: 24.6%;
+		right: 53%;
+		display: block;
+	}
+	80%, 100% {
+		opacity: 0;
+		transform: scale(1.2);	
+	}
+}
+#sdr-col{
+	padding-bottom: 45.2%;
+}
+
+#srd-col img{
+	width: auto;
+}
+
+#barra-sdr{
+	position: absolute;
+    height: 38%;
+    bottom: 10.7%;
+	left: 7%;
+
+}
+
+#sddr:hover{
+	position: absolute;
+    height: 82.8%;
+    top: 7.5%;
+    left: 18.4%;
+    transform: scale(1.2);
+	transition: 1s;
+}
+
+#sddr{
+	position: absolute;
+    height: 82.8%;
+    top: 7.5%;
+	left: 18.4%;
+	transition: 1s;
+}
+
+/* zoom sdr */
+
+#anima-sdr-zoom:hover {
+	display: block;
+	cursor: pointer;
+	transform: scale(1.2);
+	animation-delay: 3s;
+	animation: zoom-sdr 5s infinite;
+} 
+
+#sddr:hover + #anima-sdr-zoom{
+	display: block;
+	cursor: pointer;
+	transform: scale(1.2);
+	animation-delay: 3s;
+	animation: zoom-sdr 5s infinite;
+}
+
+@keyframes zoom-sdr {
+		0% {
+		opacity: 0;
+		top: 53%;
+		right: 25%;
+		transform: scale(0.5);
+		z-index:999;
+	}
+	33%,80%{
+		opacity: 1;
+    	transform: scale(1);
+		top: 69%;
+		right: 42.3%;
+		display: block;
+		z-index:999;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(0.5);
+		top: 53%;
+		right: 25%;
+		z-index:999;
+	}
+}
+
+#anima-sdr-zoom{
+	position: absolute;
+	width: 13.5%;
+	top: 65%;
+	right: 42.3%;
+	display: none;
+}
+
+#anima-sdr-feixe {
+	position: absolute;
+	display: none;
+	width: 20.5%;
+		top: 73.6%;
+		right: 35%;
+}
+
+#anima-sdr-feixe:hover{
+	display: block;
+	cursor: pointer;
+	animation: feixe-sdr 5s infinite;
+}
+
+#sddr:hover ~ #anima-sdr-feixe{
+	display: block;
+	cursor: pointer;
+	animation: feixe-sdr 5s infinite;
+}
+@keyframes feixe-sdr{
+	0% {
+		opacity: .1;
+		width: 20.5%;
+		top: 66.6%;
+		right: 28%;
+		display: block;
+
+	}
+	33%, 70%{
+		opacity: 1;
+    	width: 35.5%;
+		top: 68.6%;
+		right: 30%;
+		display: block;
+	}
+	100% {
+		opacity: 0;	
+		top: 68.6%;
+		right: 30%;
+	}
+}
+
+/* 4k */
+#fullhd-samsung {
+	text-align: center;
+}
+
+#bloco05Isee {
+	width: 100%;
+	height: 0;
+	background: url(../img/imgFHD.jpg) no-repeat center center;
+	background-size: contain;
+	padding-bottom: 50%;
+	}
+
+
+ #bloco05Isee input {
+	display: none;
+ }
+
+ #bloco05Isee .lblsIsee {
+	width: 100%;
+	height: 84%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 8888;
+	overflow: hidden;
+	padding: 0;
+ }
+
+ /* 2 imagem */
+ #bloco05Isee .lblsIsee div.pixelIsee {
+	position: absolute;
+	bottom: 34%;
+	background: url(../img/imgFHD2.jpg) no-repeat center center transparent;
+	background-size: cover;
+	width: 100%;
+	height: 0%;
+	z-index: 9999999;
+	transition: all 0.2s linear 0s;
+	-webkit-clip-path: circle(32px at 90% 50%);
+	clip-path: circle(32px at 65% 60%);
+	left: 0;
+	padding-bottom: 20%;
+	}
+
+ /* lupa */
+ #bloco05Isee .lblsIsee div.lupaIsee {
+    position: absolute;
+    background: url(../img/lupa.png) no-repeat center center transparent;
+    background-size: contain;
+    width: 18%;
+    height: 0%;
+    bottom: 30%;
+    z-index: 100000000;
+    transition: left 0.2s linear 0s;
+    padding-bottom: 23%;
+ }
+
+ #bloco05Isee .lblsIsee label {
+	border: none;
+	background-color: transparent;
+	opacity: .5;
+	width: 5%;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	cursor: hand;
+	cursor: pointer;
+	padding: 0 10%;
+ }
+
+ #bloco05Isee .lblsIsee label.blc05_lbl01Isee {
+	left: 00%;
+	z-index: 2001;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl02Isee {
+	left: 05%;
+	z-index: 2002;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl03Isee {
+	left: 10%;
+	z-index: 2003;
+	z-index: 999999999999;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl04Isee {
+	left: 15%;
+	z-index: 2004;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl05Isee {
+	left: 20%;
+	z-index: 2005;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl06Isee {
+	left: 25%;
+	z-index: 2006;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl07Isee {
+	left: 30%;
+	z-index: 2007;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl08Isee {
+	left: 35%;
+	z-index: 2008;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl09Isee {
+	left: 40%;
+	z-index: 2009;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl10Isee {
+	left: 45%;
+	z-index: 2010;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl11Isee {
+	left: 50%;
+	z-index: 2011;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl12Isee {
+	left: 55%;
+	z-index: 2012;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl13Isee {
+	left: 60%;
+	z-index: 2013;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl14Isee {
+	left: 65%;
+	z-index: 2014;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl15Isee {
+	left: 70%;
+	z-index: 2015;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl16Isee {
+	left: 75%;
+	z-index: 2016;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl17Isee {
+	left: 80%;
+	z-index: 2017;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl18Isee {
+	left: 85%;
+	z-index: 2018;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl19Isee {
+	left: 90%;
+	z-index: 2019;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl20Isee {
+	left: 95%;
+	z-index: 2020;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl01Isee:hover ~ div.lupaIsee {
+	left: -4% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl02Isee:hover ~ div.lupaIsee {
+	left: -1% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl03Isee:hover ~ div.lupaIsee {
+	left: 4% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl04Isee:hover ~ div.lupaIsee {
+	left: 9% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl05Isee:hover ~ div.lupaIsee {
+	left: 14% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl06Isee:hover ~ div.lupaIsee {
+	left: 19% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl07Isee:hover ~ div.lupaIsee {
+	left: 24% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl08Isee:hover ~ div.lupaIsee {
+	left: 29% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl09Isee:hover ~ div.lupaIsee {
+	left: 34% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl10Isee:hover ~ div.lupaIsee {
+	left: 39% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl11Isee:hover ~ div.lupaIsee {
+	left: 44% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl12Isee:hover ~ div.lupaIsee {
+	left: 49% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl13Isee:hover ~ div.lupaIsee {
+	left: 54% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl14Isee:hover ~ div.lupaIsee {
+	left: 59% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl15Isee:hover ~ div.lupaIsee {
+	left: 64% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl16Isee:hover ~ div.lupaIsee {
+	left: 69% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl17Isee:hover ~ div.lupaIsee {
+	left: 74% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl18Isee:hover ~ div.lupaIsee {
+	left: 79% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl19Isee:hover ~ div.lupaIsee {
+	left: 84% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl20Isee:hover ~ div.lupaIsee {
+	left: 89% !important;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl01Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 04.90% 50%) !important;
+	clip-path: circle(12% at 04.90% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl02Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 08.00% 50%) !important;
+	clip-path: circle(12% at 08.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl03Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 13.00% 50%) !important;
+	clip-path: circle(12% at 13.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl04Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 18.00% 50%) !important;
+	clip-path: circle(12% at 18.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl05Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 23.00% 50%) !important;
+	clip-path: circle(12% at 23.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl06Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 28.00% 50%) !important;
+	clip-path: circle(12% at 28.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl07Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 33.00% 50%) !important;
+	clip-path: circle(12% at 33.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl08Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 38.00% 50%) !important;
+	clip-path: circle(12% at 38.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl09Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 43.00% 50%) !important;
+	clip-path: circle(12% at 43.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl10Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 48.00% 50%) !important;
+	clip-path: circle(12% at 48.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl11Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 53.00% 50%) !important;
+	clip-path: circle(12% at 53.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl12Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 58.00% 50%) !important;
+	clip-path: circle(12% at 58.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl13Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 63.00% 50%) !important;
+	clip-path: circle(12% at 63.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl14Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 68.00% 50%) !important;
+	clip-path: circle(12% at 68.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl15Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 73.00% 50%) !important;
+	clip-path: circle(12% at 73.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl16Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 78.00% 50%) !important;
+	clip-path: circle(12% at 78.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl17Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 83.00% 50%) !important;
+	clip-path: circle(12% at 83.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl18Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 88.00% 50%) !important;
+	clip-path: circle(12% at 88.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl19Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 93.00% 50%) !important;
+	clip-path: circle(12% at 93.00% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee .lblsIsee label.blc05_lbl20Isee:hover ~ div.pixelIsee {
+	-webkit-clip-path: circle(12% at 97.90% 50%) !important;
+	clip-path: circle(12% at 97.90% 50%) !important;
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp01Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: -6%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp02Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: -3%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp03Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 2%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp04Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 7%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp05Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 12%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp06Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 17%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp07Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 22%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp08Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 27%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp09Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 34%;
+	transition: left 0.3s linear 0s;
+	}
+ 
+ #bloco05Isee input#blc05_inp10Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 37%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp11Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 42%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp12Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 47%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp13Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 52%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp14Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 58%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp15Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 62%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp16Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 68%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp17Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 72%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp18Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 77%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp19Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 82%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp20Isee:checked ~ .lblsIsee div.lupaIsee {
+	left: 87%;
+	transition: left 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp01Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 04.90% 50%);
+	clip-path: circle(32px at 04.90% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp02Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 08.00% 50%);
+	clip-path: circle(32px at 08.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp03Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 13.00% 50%);
+	clip-path: circle(32px at 13.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp04Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 18.00% 50%);
+	clip-path: circle(32px at 18.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp05Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 23.00% 50%);
+	clip-path: circle(32px at 23.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp06Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 28.00% 50%);
+	clip-path: circle(32px at 28.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp07Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 33.00% 50%);
+	clip-path: circle(32px at 33.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp08Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 38.00% 50%);
+	clip-path: circle(32px at 38% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp09Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(12% at 43.00% 50%);
+	clip-path: circle(12% at 43.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp10Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 48.00% 50%);
+	clip-path: circle(32px at 48.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp11Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 53.00% 50%);
+	clip-path: circle(32px at 53.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp12Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 58.00% 50%);
+	clip-path: circle(32px at 58.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp13Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 63.00% 50%);
+	clip-path: circle(32px at 63.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp14Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 68.00% 50%);
+	clip-path: circle(32px at 68.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp15Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 73.00% 50%);
+	clip-path: circle(32px at 73.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp16Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 78.00% 50%);
+	clip-path: circle(32px at 78.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp17Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 83.00% 50%);
+	clip-path: circle(32px at 83.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp18Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 88.00% 50%);
+	clip-path: circle(32px at 88.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp19Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 93.00% 50%);
+	clip-path: circle(32px at 93.00% 50%);
+	transition: all 0.3s linear 0s;
+ }
+ 
+ #bloco05Isee input#blc05_inp20Isee:checked ~ .lblsIsee div.pixelIsee {
+	-webkit-clip-path: circle(32px at 97.90% 50%);
+	clip-path: circle(32px at 97.90% 50%);
+	transition: all 0.3s linear 0s;
+ }
+
+ #hd-text{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+
+}
+
+#fhd-text{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 20%;
+
+}
+
+.img-mobile{
+	display: none ;
+	width: 100%;
+	margin-top: 10%;
+}
+
+
+#smart-tv-samsung  .containerSamsung p{
+	padding: 0 19% 0 19%;
+}
+#hdr-samsung  .containerSamsung p{
+	padding: 0 19% 0 19%;
+}
+/* FOOTER */
+
+#footer-samsung {
+	background: #000;
+	color: #fff;
+}
+
+#footer-samsung p {
+	text-align: justify;
+    font-size: calc(5px + 0.3vw);
+    line-height: calc(3px + 0.8vw);
+}
+
+#footer-samsung img {
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 5px;
+	width: 95px;
+}
+#footer-samsung .containerSamsung{
+	padding: calc(20px + 2%) 15px;
+}
+/* RESPONSIVO */
+
+@media (max-width: 1150px) {
+	#quadro-samsung p {
+		height: 20%;
+	}
+}
+
+@media (max-width: 1080px) {
+	.colSamsung-md-5 h3 {
+		margin-top: 0 !important;
+	}
+	#quadro-samsung p {
+		height: 25%;
+	}
+}
+	@media (min-width: 768px) {
+		.mobile {
+		    display: none;
+	    }
+	}
+@media (max-width: 767.98px) {
+
+.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block !important;
+	}
+
+	#fullhd-samsung-mobile{
+		display: none;
+	}
+	.img-mobile{
+		display: block;
+	}
+
+	.menu-centro-samsung {
+		width: 100%;
+		position: absolute;
+		left: 0%;
+	}
+
+#menu-samsung a {
+    padding: 60% 0 0 100%;
+}
+
+.colSamsung-md-5, .colSamsung-md-6 {
+	text-align: center;
+}
+
+.colSamsung-md-5 p{
+	margin-bottom: 5%;	
+}
+
+.wrapperSamsung h4 {
+	font-size: calc(8px + 2vw);
+	line-height: calc(16px + 2vw);
+}
+
+.wrapperSamsung p {
+	font-size: calc(6px + 2vw);
+	line-height: calc(14px + 2vw);
+}
+
+.wrapperSamsung p {
+	font-size: calc(6px + 1.5vw);
+	line-height: calc(14px + 1.5vw);
+}
+
+#footer-samsung p {
+    font-size: calc(5px + 0.3vw);
+    line-height: calc(3px + 0.8vw);
+}
+
+#smart-tv-samsung  .containerSamsung p{
+	padding: 0;
+}
+#hdr-samsung  .containerSamsung p{
+	padding: 0;
+}
+}
+
+@media (max-width: 600px) {
+	#footer-samsung p {
+		font-size:1.5vw;
+		line-height: calc(3px + 2vw);
+	}
+}
+
+ @media (max-width: 575px) {
+        .rowSamsung.menu-centro-samsung {
+            margin: 0 auto 8% auto !important;
+        }
+
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1) {
+            background: url(../img/menu-1.png) center no-repeat;
+            background-size: 45%;
+            height: 0;
+            padding-bottom: 20%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2) {
+            background: url(../img/menu-2.png) center no-repeat;
+            background-size: 45%;
+            height: 0;
+            padding-bottom: 20%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3) {
+            background: url(../img/menu-3.png) center no-repeat;
+            background-size: 45%;
+            height: 0;
+            padding-bottom: 20%;
+        }
+        /* hover */
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1):hover {
+            background: url(../img/menu-1-hover.png) center no-repeat;
+            background-color: #000;
+            background-size: 50%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2):hover {
+            background: url(../img/menu-2-hover.png) center  no-repeat;
+            background-size: 50%;
+            background-color: #000;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3):hover {
+            background: url(../img/menu-3-hover.png) center  no-repeat;
+            background-size: 50%;
+            background-color: #000;
+        }
+        #menu-samsung a {
+            padding: 0;
+            padding-bottom: 22%;
+        }
+
+    }
+
+@media (min-width: 451px) {
+	.mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 450px) {	
+
+
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1) {
+            background: url(../img/menu-1.png) center no-repeat;
+            background-size: 65%;
+            height: 0;
+            padding-bottom: 30%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2) {
+            background: url(../img/menu-2.png) center no-repeat;
+           background-size: 65%;
+            height: 0;
+            padding-bottom: 30%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3) {
+            background: url(../img/menu-3.png) center no-repeat;
+            background-size: 65%;
+            height: 0;
+            padding-bottom: 30%;
+        }
+        /* hover */
+        #menu-samsung .colSamsung-sm-4:nth-of-type(1):hover {
+            background: url(../img/menu-1-hover.png) center  no-repeat;
+            background-color: #000;
+            background-size: 65%;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(2):hover {
+            background: url(../img/menu-2-hover.png) center  no-repeat;
+            background-size: 65%;
+            background-color: #000;
+        }
+        
+        #menu-samsung .colSamsung-sm-4:nth-of-type(3):hover {
+            background: url(../img/menu-3-hover.png) center  no-repeat;
+            background-size: 65%;
+            background-color: #000;
+        }
+        #menu-samsung a {
+            padding: 0;
+            padding-bottom: 33%;
+        }
+
+
+	.desktop {
+		display: none;
+	}
+
+	
+	#intro-samsung {
+		background: url(../img/introc-samsung.jpg) center top no-repeat;
+		background-size: cover;
+		padding-bottom: 146%;
+	}	
+	
+	#intro-samsung label {
+		width: 78.9%;
+		height: 31%;
+		left: 10.5%;
+		top: 20.8%;
+	}
+	
+	#intro-samsung iframe {
+		width: 78.9%;
+		height: 31%;
+		left: 10.5%;
+		top: 20.8%;
+	}
+
+	#smart-tv-samsung .containerSamsung h3{
+		font-size: calc(22px + 1vw);
+	}
+	
+}
+
+@media (max-width: 400px) {
+
+.wrapperSamsung p {
+	font-size: calc(6px + 2.5vw);
+	line-height: calc(14px + 2.5vw);
+}
+#footer-samsung p {
+	font-size: 2.0vw;
+	line-height: calc(4px + 2.5vw);
+}
+
+#smart-tv-samsung .containerSamsung h3{
+	font-size: calc(19px + 1vw);
+}
+}
+
+.teste{
+	border: 1px solid #000;
+}
